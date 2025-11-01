@@ -127,18 +127,18 @@ Longest (critical) distances from source 4:
 
 ##  GitHub Structure / Hygiene (5 %)
 
-* Clean Maven structure
-* `.gitignore` excludes IDE/build files
-* Informative commit messages:
+Clean Maven structure
+`.gitignore` excludes IDE/build files
+Informative commit messages:
 
-  * `Add SCC and Topological modules`
-  * `Implement DAG Paths and Metrics`
-  * `Generate datasets`
-  * `Finalize README
+   `Add SCC and Topological modules`
+   `Implement DAG Paths and Metrics`
+   `Generate datasets`
+   `Finalize README
 
 ##  Learning Outcomes
 
-* Implemented Tarjan’s SCC and Topological Sorting from scratch
-* Understood DAG properties and critical path analysis
-* Practiced JSON input/output handling with Gson
-* Measured algorithmic complexity empirically
+Implemented Tarjan’s SCC and Topological Sorting from scratch
+Understood DAG properties and critical path analysis
+Practiced JSON input/output handling with Gson
+Measured algorithmic complexity empirically
