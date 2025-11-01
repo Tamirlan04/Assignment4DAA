@@ -1,9 +1,9 @@
 ```markdown
 #  Assignment 4 — Graph Analysis and Scheduling  
-**Course:** Design and Analysis of Algorithms (DAA)  
-**Institution:** Astana IT University  
-**Authors:** Kyzylov Tamirlan  
-**Language:** Java 17 (Maven project)  
+Course: Design and Analysis of Algorithms (DAA)  
+Institution: Astana IT University  
+Authors: Kyzylov Tamirlan  
+Language: Java 17 (Maven project)  
 
 ---
 
@@ -11,12 +11,12 @@
 This project implements advanced graph algorithms for analyzing task dependencies and optimizing execution schedules.  
 The implementation follows the official requirements of *Assignment 4* and includes:
 
-- **Strongly Connected Components (SCC)** — Tarjan’s DFS algorithm  
-- **Condensation Graph (DAG)** construction  
-- **Topological Sort** (Kahn’s Algorithm)  
-- **Shortest and Longest Paths in DAG** — critical path analysis  
-- **Metrics Module** for step counting and timing  
-- **Dataset Generator** producing 9 graph inputs for experiments  
+- Strongly Connected Components (SCC)** — Tarjan’s DFS algorithm  
+- Condensation Graph (DAG)** construction  
+- Topological Sort** (Kahn’s Algorithm)  
+- Shortest and Longest Paths in DAG** — critical path analysis  
+- Metrics Module** for step counting and timing  
+- Dataset Generator** producing 9 graph inputs for experiments  
 
 ---
 
@@ -124,30 +124,6 @@ Longest (critical) distances from source 4:
 | Tarjan SCC | 50    | 120   | 73        | —           | 1.23      |
 | Topo Sort  | 50    | 120   | —         | 0           | 0.42      |
 | DAG Paths  | 50    | 120   | —         | 67          | 0.31      |
-
----
-
-##  Build & Run
-
-###  Requirements
-
-* Java 17 or higher
-* Maven 3.9+
-* Gson Library
-
-###  Build and Run
-
-```bash
-mvn compile
-mvn exec:java -Dexec.mainClass="graph.scc.Main"
-```
-
-or, if run manually:
-
-```bash
-javac -cp gson.jar src/**/*.java
-java -cp gson.jar;. graph.scc.Main
-```
 
 ---
 
