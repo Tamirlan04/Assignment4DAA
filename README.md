@@ -161,9 +161,7 @@ java -cp gson.jar;. graph.scc.Main
   * `Add SCC and Topological modules`
   * `Implement DAG Paths and Metrics`
   * `Generate datasets`
-  * `Finalize README`
-
----
+  * `Finalize README
 
 ##  Learning Outcomes
 
@@ -171,28 +169,3 @@ java -cp gson.jar;. graph.scc.Main
 * Understood DAG properties and critical path analysis
 * Practiced JSON input/output handling with Gson
 * Measured algorithmic complexity empirically
-
----
-
-##  Team Roles
-
-| Member      | Responsibility                           |
-| ----------- | ---------------------------------------- |
-| Tamirlan A. | SCC and Topological Sort                 |
-| Emir P.     | DAG Shortest / Longest Path and Metrics  |
-| Bayazit N.  | Dataset Generation and Report Formatting |
-
----
-
-##  References
-
-* Tarjan, R.E. (1972). *Depth-First Search and Linear Graph Algorithms.*
-* Cormen et al. (2009). *Introduction to Algorithms.*
-* Astana IT University — CS-2413 Design and Analysis of Algorithms Syllabus
-
----
-
->  *All graph datasets and results can be found in the `data/` folder.
-> For reproducibility, run `DatasetGenerator` to regenerate all inputs.*
-
-```
