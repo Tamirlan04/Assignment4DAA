@@ -24,18 +24,17 @@ The implementation follows the official requirements of *Assignment 4* and inclu
 ```
 
 assignment4/
-├─ data/                     # Input datasets (tasks_1.json … tasks_9.json)
-├─ src/
-│   ├─ graph/
-│   │   ├─ scc/              # Tarjan SCC algorithm
-│   │   ├─ topo/             # Topological Sort and Condensation Graph
-│   │   ├─ dagsp/            # DAG Shortest/Longest Path (DAGPaths.java)
-│   │   └─ utils/            # Dataset Generator
-│   ├─ metrics/              # Metrics and Instrumentation
-│   └─ main/                 # Entry Point (Main.java)
-├─ pom.xml                   # Maven configuration (Gson dependency)
-├─ .gitignore
-└─ README.md
+   data/                     # Input datasets (tasks_1.json … tasks_9.json)
+   src/
+       graph/
+            scc/              # Tarjan SCC algorithm
+            topo/             # Topological Sort and Condensation Graph
+            dagsp/            # DAG Shortest/Longest Path (DAGPaths.java)
+            utils/            # Dataset Generator
+       metrics/              # Metrics and Instrumentation
+   pom.xml                   # Maven configuration (Gson dependency)
+   .gitignore
+   README.md
 
 ````
 
