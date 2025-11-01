@@ -11,16 +11,17 @@ Language: Java 17 (Maven project)
 This project implements advanced graph algorithms for analyzing task dependencies and optimizing execution schedules.  
 The implementation follows the official requirements of 'Assignment 4' and includes:
 
-- Strongly Connected Components (SCC) — Tarjan’s DFS algorithm  
-- Condensation Graph (DAG) construction  
-- Topological Sort (Kahn’s Algorithm)  
-- Shortest and Longest Paths in DAG — critical path analysis  
-- Metrics Module for step counting and timing  
-- Dataset Generator producing 9 graph inputs for experiments  
+Strongly Connected Components (SCC) — Tarjan’s DFS algorithm  
+Condensation Graph (DAG) construction  
+Topological Sort (Kahn’s Algorithm)  
+Shortest and Longest Paths in DAG — critical path analysis  
+Metrics Module for step counting and timing  
+Dataset Generator producing 9 graph inputs for experiments  
 
 ---
 
- Project Structure
+Project Structure
+
 ```
 
 assignment4/
@@ -37,34 +38,31 @@ assignment4/
    README.md
 
 ````
-
----
-
 ##  Algorithm Modules
 
 ###  SCC Finder (Tarjan DFS)
-- Discovers all strongly connected components.  
-- Returns component groups and mapping from node → component ID.  
+Discovers all strongly connected components.  
+Returns component groups and mapping from node → component ID.  
 
 ###  Condensation Graph + Topological Sort
-- Builds a DAG from SCCs.  
-- Sorts components using Kahn’s algorithm (topological order).  
+Builds a DAG from SCCs.  
+Sorts components using Kahn’s algorithm (topological order).  
 
 ### DAG Shortest & Longest Path (DAGPaths)
-- Computes shortest distances for weighted DAGs.  
-- Computes critical (longest) paths for project scheduling.  
-- Uses topological ordering for linear-time processing.  
+Computes shortest distances for weighted DAGs.  
+Computes critical (longest) paths for project scheduling.  
+Uses topological ordering for linear-time processing.  
 
 ###  Metrics Instrumentation
-- `Metrics.java` — interface for operations and timing.  
-- `SimpleMetrics.java` — counts DFS calls, relaxations, push/pop operations, execution time.  
+`Metrics.java` — interface for operations and timing.  
+`SimpleMetrics.java` — counts DFS calls, relaxations, push/pop operations, execution time.  
 
 ###  Dataset Generation
-- `DatasetGenerator.java` creates 9 JSON files of various sizes:  
-  - 3 × Small (6–10 vertices)  
-  - 3 × Medium (10–20 vertices)  
-  - 3 × Large (20–50 vertices)  
-- Each contains directed and partially cyclic subgraphs.
+`DatasetGenerator.java` creates 9 JSON files of various sizes:  
+  3 × Small (6–10 vertices)  
+  3 × Medium (10–20 vertices)  
+  3 × Large (20–50 vertices)  
+Each contains directed and partially cyclic subgraphs.
 
 ---
 
