@@ -9,14 +9,14 @@ Language: Java 17 (Maven project)
 
 ##  Overview
 This project implements advanced graph algorithms for analyzing task dependencies and optimizing execution schedules.  
-The implementation follows the official requirements of *Assignment 4* and includes:
+The implementation follows the official requirements of 'Assignment 4' and includes:
 
-- Strongly Connected Components (SCC)** — Tarjan’s DFS algorithm  
-- Condensation Graph (DAG)** construction  
-- Topological Sort** (Kahn’s Algorithm)  
-- Shortest and Longest Paths in DAG** — critical path analysis  
-- Metrics Module** for step counting and timing  
-- Dataset Generator** producing 9 graph inputs for experiments  
+- Strongly Connected Components (SCC) — Tarjan’s DFS algorithm  
+- Condensation Graph (DAG) construction  
+- Topological Sort (Kahn’s Algorithm)  
+- Shortest and Longest Paths in DAG — critical path analysis  
+- Metrics Module for step counting and timing  
+- Dataset Generator producing 9 graph inputs for experiments  
 
 ---
 
